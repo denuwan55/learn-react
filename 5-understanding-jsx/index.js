@@ -3,14 +3,15 @@
 // h1.className = "header"
 // console.log(h1)
 
-const headerAsJSX = <h1>Understanding JSX</h1>
-console.log(headerAsJSX)
-
-ReactDOM.render(
+const page = (
     <div>
         <h1>Understanding JSX</h1>
         <p>This is JSX</p>
     </div>
+)
+
+ReactDOM.render(
+    page
     , document.getElementById("root")
 )
 
